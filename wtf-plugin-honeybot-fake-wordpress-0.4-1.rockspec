@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "wtf-plugin-honeybot-fake-wordpress"
-version = "0.3-1"
+version = "0.4-1"
 -- LuaDist source
 source = {
-  tag = "0.3-1",
+  tag = "0.4-1",
   url = "git://github.com/LuaDist-testing/wtf-plugin-honeybot-fake-wordpress.git"
 }
 -- Original source
 -- source = {
 --    url = "git+https://github.com/honeybot/wtf-plugin-honeybot-fake-wordpress",
---    tag = "0.3"
+--    tag = "0.4"
 -- }
 description = {
    homepage = "https://github.com/honeybot/wtf-plugin-honeybot-fake-wordpress",
@@ -24,6 +24,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["wtf.plugins.honeybot.fake.wordpress.module"] = "wtf/plugins/honeybot/fake/wordpress/module.lua"
+      ["wtf.plugins.honeybot.fake.wordpress"] = "wtf/plugins/honeybot/fake/wordpress/handler.lua"
    }
 }
